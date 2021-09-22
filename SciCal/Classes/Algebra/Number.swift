@@ -50,6 +50,12 @@ extension Number {
     }
 }
 
+extension Number where Self.DecimalType == Self {
+    public var decimalValue: Self {
+        return self
+    }
+}
+
 extension Number where Self: UnsignedInteger {
     public var isNegative: Bool {
         return false
@@ -57,6 +63,10 @@ extension Number where Self: UnsignedInteger {
     
     public var positive: Self {
         return self
+    }
+    
+    public func squareRoot () -> DecimalType where Self.DecimalType.DecimalType == Self.DecimalType {
+        return self.decimalValue.squareRoot()
     }
 }
 
@@ -67,6 +77,10 @@ extension Number where Self: SignedInteger {
     
     public var positive: Self {
         return isNegative ? -self : self
+    }
+    
+    public func squareRoot () -> DecimalType where Self.DecimalType.DecimalType == Self.DecimalType {
+        return self.decimalValue.squareRoot()
     }
 }
 

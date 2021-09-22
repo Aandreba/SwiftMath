@@ -11,8 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let test = Complex<BigDecimal>(re: 1)
-        print(test.description)
+        print(Int(1).complexSqrt().description)
         // Do any additional setup after loading the view.
     }
 }

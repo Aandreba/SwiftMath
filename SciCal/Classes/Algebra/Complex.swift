@@ -59,6 +59,12 @@ final public class Complex<T>: Numeric where T: Number {
 // EXTENSIONS
 extension Complex: Descriveable where T: Descriveable {
     public var description: String {
-        return self.re.description + (self.im.isNegative ? " - " : " + ") + self.im.positive.description
+        if (self.im == 0) {
+            return self.re.description
+        } else if (self.re == 0) {
+            return self.im.description + "i"
+        }
+        
+        return self.re.description + (self.im.isNegative ? " - " : " + ") + self.im.positive.description + "i"
     }
 }
