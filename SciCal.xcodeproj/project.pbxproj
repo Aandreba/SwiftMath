@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D430E45626F6440F0068493A /* BigMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430E45526F6440F0068493A /* BigMath.swift */; };
+		D45E6C1226FB836700CFB8F3 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E6C1126FB836700CFB8F3 /* Number.swift */; };
+		D45E6C1526FB846900CFB8F3 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E6C1426FB846900CFB8F3 /* Complex.swift */; };
+		D45E6C1726FB889F00CFB8F3 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E6C1626FB889F00CFB8F3 /* Fraction.swift */; };
+		D45E6C1926FB8CD800CFB8F3 /* BigExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E6C1826FB8CD800CFB8F3 /* BigExt.swift */; };
+		D4F2DBC126F9455A00468ECA /* Cordic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2DBC026F9455A00468ECA /* Cordic.swift */; };
 		D4F7C55F26E2EF2500E1779D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C55E26E2EF2500E1779D /* AppDelegate.swift */; };
 		D4F7C56126E2EF2500E1779D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C56026E2EF2500E1779D /* SceneDelegate.swift */; };
 		D4F7C56326E2EF2500E1779D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C56226E2EF2500E1779D /* ViewController.swift */; };
@@ -15,6 +21,9 @@
 		D4F7C56B26E2EF2600E1779D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F7C56926E2EF2600E1779D /* LaunchScreen.storyboard */; };
 		D4F7C57626E2EF2600E1779D /* SciCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C57526E2EF2600E1779D /* SciCalTests.swift */; };
 		D4F7C58126E2EF2600E1779D /* SciCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C58026E2EF2600E1779D /* SciCalUITests.swift */; };
+		D4F7C59D26E2FC8C00E1779D /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C59C26E2FC8C00E1779D /* BigUInt.swift */; };
+		D4F7C59F26E473F200E1779D /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C59E26E473F200E1779D /* BigInt.swift */; };
+		D4F7C5A726E4FAD800E1779D /* BigDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F7C5A626E4FAD800E1779D /* BigDecimal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D430E45526F6440F0068493A /* BigMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMath.swift; sourceTree = "<group>"; };
+		D45E6C1126FB836700CFB8F3 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		D45E6C1426FB846900CFB8F3 /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
+		D45E6C1626FB889F00CFB8F3 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		D45E6C1826FB8CD800CFB8F3 /* BigExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigExt.swift; sourceTree = "<group>"; };
+		D4F2DBC026F9455A00468ECA /* Cordic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordic.swift; sourceTree = "<group>"; };
 		D4F7C55B26E2EF2500E1779D /* SciCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SciCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F7C55E26E2EF2500E1779D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F7C56026E2EF2500E1779D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		D4F7C57C26E2EF2600E1779D /* SciCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SciCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F7C58026E2EF2600E1779D /* SciCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciCalUITests.swift; sourceTree = "<group>"; };
 		D4F7C58226E2EF2600E1779D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F7C59C26E2FC8C00E1779D /* BigUInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigUInt.swift; sourceTree = "<group>"; };
+		D4F7C59E26E473F200E1779D /* BigInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
+		D4F7C5A626E4FAD800E1779D /* BigDecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDecimal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D45E6C1326FB845E00CFB8F3 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				D430E45526F6440F0068493A /* BigMath.swift */,
+				D4F2DBC026F9455A00468ECA /* Cordic.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		D45E6C1A26FB942500CFB8F3 /* Calculus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calculus;
+			sourceTree = "<group>";
+		};
+		D4F2DBC226FA148D00468ECA /* Algebra */ = {
+			isa = PBXGroup;
+			children = (
+				D45E6C1326FB845E00CFB8F3 /* Math */,
+				D4F7C59526E2FC4300E1779D /* Big */,
+				D45E6C1126FB836700CFB8F3 /* Number.swift */,
+				D45E6C1426FB846900CFB8F3 /* Complex.swift */,
+				D45E6C1626FB889F00CFB8F3 /* Fraction.swift */,
+				D45E6C1826FB8CD800CFB8F3 /* BigExt.swift */,
+			);
+			path = Algebra;
+			sourceTree = "<group>";
+		};
 		D4F7C55226E2EF2500E1779D = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +146,7 @@
 		D4F7C55D26E2EF2500E1779D /* SciCal */ = {
 			isa = PBXGroup;
 			children = (
-				D4F7C55E26E2EF2500E1779D /* AppDelegate.swift */,
+				D4F7C58E26E2EF3800E1779D /* Classes */,
 				D4F7C56026E2EF2500E1779D /* SceneDelegate.swift */,
 				D4F7C56226E2EF2500E1779D /* ViewController.swift */,
 				D4F7C56426E2EF2500E1779D /* Main.storyboard */,
@@ -126,6 +173,26 @@
 				D4F7C58226E2EF2600E1779D /* Info.plist */,
 			);
 			path = SciCalUITests;
+			sourceTree = "<group>";
+		};
+		D4F7C58E26E2EF3800E1779D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D45E6C1A26FB942500CFB8F3 /* Calculus */,
+				D4F2DBC226FA148D00468ECA /* Algebra */,
+				D4F7C55E26E2EF2500E1779D /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D4F7C59526E2FC4300E1779D /* Big */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7C59C26E2FC8C00E1779D /* BigUInt.swift */,
+				D4F7C59E26E473F200E1779D /* BigInt.swift */,
+				D4F7C5A626E4FAD800E1779D /* BigDecimal.swift */,
+			);
+			path = Big;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F7C5A726E4FAD800E1779D /* BigDecimal.swift in Sources */,
+				D4F7C59D26E2FC8C00E1779D /* BigUInt.swift in Sources */,
+				D45E6C1226FB836700CFB8F3 /* Number.swift in Sources */,
 				D4F7C56326E2EF2500E1779D /* ViewController.swift in Sources */,
 				D4F7C55F26E2EF2500E1779D /* AppDelegate.swift in Sources */,
 				D4F7C56126E2EF2500E1779D /* SceneDelegate.swift in Sources */,
+				D45E6C1926FB8CD800CFB8F3 /* BigExt.swift in Sources */,
+				D430E45626F6440F0068493A /* BigMath.swift in Sources */,
+				D4F2DBC126F9455A00468ECA /* Cordic.swift in Sources */,
+				D45E6C1526FB846900CFB8F3 /* Complex.swift in Sources */,
+				D4F7C59F26E473F200E1779D /* BigInt.swift in Sources */,
+				D45E6C1726FB889F00CFB8F3 /* Fraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
