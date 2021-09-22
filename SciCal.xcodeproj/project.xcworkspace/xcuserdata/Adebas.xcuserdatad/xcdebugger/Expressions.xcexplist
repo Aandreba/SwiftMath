@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static BigMath.sqrt(_:_:):BigMath.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static BigMath.pi(_:):BigMath.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static BigUInt.&gt;&gt; infix(_:_:):BigUInt.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Decimal.description.getter:Decimal.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BigInt.init(integerLiteral:):BigInt.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static BigMath.sqrt(_:):BigMath.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Decimal.init(_:_:):Decimal.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Decimal.init(integerLiteral:):Decimal.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Decimal.divide(_:_:_:):Decimal.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Decimal.compare(_:_:):Decimal.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static BigUInt.* infix(_:_:):BigUInt.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&#xba;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Decimal.round(_:):Decimal.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad():ViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
